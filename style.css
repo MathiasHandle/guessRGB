@@ -85,4 +85,13 @@ button:focus {
 	.squareContainer {
 		width: 90%;
 	}
+	#stripe {
+		display: flex;
+		height: 1.5rem;
+		font-size: 1rem;
+	}
+	button {
+		font-size: 1rem;
+		letter-spacing: normal;
+	}
 }
