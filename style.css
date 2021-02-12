@@ -95,7 +95,8 @@ button:focus {
 		letter-spacing: normal;
 	}
 	#message {
-		font-size: 0.7rem;
+		font-size: 1rem;
 		width: auto;
+		margin: auto 0rem;
 	}
 }
