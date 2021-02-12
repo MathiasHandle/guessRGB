@@ -1,1 +1,3 @@
 # guessRGB
+
+![](view.png)

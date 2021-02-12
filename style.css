@@ -1,72 +1,88 @@
-body{
-    background-color: #232323;
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
-h1{
-    padding: 1rem 0;
-    color: white;
-    text-align: center;
-    background-color: steelblue;
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 1.1;
+h1 {
+	padding: 1rem 0;
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
 }
 
-button{
-    border: none;
-    background-color: white;
-    text-transform: uppercase;
-    height: 100%;
-    font-weight: 700;
-    color: steelblue;
-    letter-spacing: 1px;
-    font-size: inherit;
-    transition: all 0.3s;
+button {
+	border: none;
+	background-color: white;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
 }
 
 button:hover,
-button:focus{
-    color: white;
-    background-color: steelblue;
-    outline: none;
+button:focus {
+	color: white;
+	background-color: steelblue;
+	outline: none;
 }
 
-#message{
-    display: inline-block;
-    width: 20%;
+#message {
+	display: inline-block;
+	width: 20%;
 }
 
-#colorDisplay{
-    font-size: 200%;
+#colorDisplay {
+	font-size: 200%;
 }
-.selected{
-    color: white;
-    background-color: steelblue;
-    border: none;
-}
-
-.squareContainer{
-    width: 40%;
-    margin: 2% auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.square{
-    width: 30%;
-    padding-bottom: 30%;
-    background-color: purple;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    border-radius: 15%;
-    transition: background-color 0.6s;
+.selected {
+	color: white;
+	background-color: steelblue;
+	border: none;
 }
 
-#stripe{
-    background-color: white;
-    height: 2rem;
-    text-align: center;
+.squareContainer {
+	width: 40%;
+	margin: 2% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	background-color: purple;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	border-radius: 15%;
+	transition: background-color 0.6s;
+}
+
+#stripe {
+	background-color: white;
+	height: 2rem;
+	text-align: center;
+}
+
+/* XXX Media queries */
+@media all and (max-width: 800px) and (max-height: 900px) {
+	.squareContainer {
+		width: 75%;
+		margin: 15% auto;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.squareContainer {
+		width: 90%;
+	}
 }
