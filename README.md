@@ -8,7 +8,7 @@ https://guessrgb.netlify.app/
 
 # Author
 
-Mathias Handle
+    Mathias Handle
 
 # License
 
