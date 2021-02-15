@@ -2,6 +2,8 @@
 
 Guess RGB game made in vanilla JS. 2 difficulty options.
 
+https://guessrgb.netlify.app/
+
 ![](view.png)
 
 # Author
